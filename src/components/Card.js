@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Heading } from "@chakra-ui/react";
+import { Box, Flex, Heading } from "@chakra-ui/react";
 
 const Card = ({ title, steps, picture }) => {
   const [toggle, setToggle] = useState(false);
@@ -18,16 +18,13 @@ const Card = ({ title, steps, picture }) => {
     );
   }
   return (
-    <Box
-      className="card"
-      bgImage={picture}
-      bgSize="cover"
-      onClick={() => setToggle(!toggle)}
-    >
-      <Heading as="h1" size="lg">
+    <Flex className="card-container" onClick={() => setToggle(!toggle)}>
+      <Heading as="h1" size="sm">
         {title}
       </Heading>
-    </Box>
+      {/* Image */}
+      <Flex className="card" bgImage={picture} bgSize="cover" bgPos="center" />
+    </Flex>
   );
 };
 
