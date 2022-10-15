@@ -1,14 +1,18 @@
 import React from "react";
 import Card from "./Card.js";
-import { Box, Flex } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 
-const Skills = ({ data }) => {
+const Skills = ({ data, setDisplayData }) => {
   return (
-    <Flex gap={5} wrap="wrap" justifyContent="center" alignItems="center">
+    <Flex
+      gap={5}
+      wrap="wrap"
+      justifyContent="center"
+      alignItems="center"
+      padding={5}
+    >
       {data.map((skill, id) => {
-        const { title, steps, picture } = skill;
-        console.log(steps);
-        return <Card title={title} steps={steps} picture={picture} key={id} />;
+        return <Card skill={skill} key={id} setDisplayData={setDisplayData} />;
       })}
     </Flex>
   );

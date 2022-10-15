@@ -1,24 +1,11 @@
-import React, { useState } from "react";
-import { Box, Flex, Heading } from "@chakra-ui/react";
+import React from "react";
+import { Flex, Heading } from "@chakra-ui/react";
 
-const Card = ({ title, steps, picture }) => {
-  const [toggle, setToggle] = useState(false);
-  if (toggle) {
-    return (
-      <Box onClick={() => setToggle(!toggle)}>
-        <h1> {title} </h1>
-        {steps.map((step, id) => {
-          return (
-            <p>
-              Step {id + 1}: {step}
-            </p>
-          );
-        })}
-      </Box>
-    );
-  }
+const Card = ({ skill, setDisplayData }) => {
+  const { title, picture } = skill;
   return (
-    <Flex className="card-container" onClick={() => setToggle(!toggle)}>
+    <Flex className="card-container" onClick={() => setDisplayData(skill)}>
+      {/* Title */}
       <Heading as="h1" size="sm">
         {title}
       </Heading>

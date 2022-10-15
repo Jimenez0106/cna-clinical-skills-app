@@ -1,19 +1,23 @@
 import React, {  useState } from "react";
+import { Flex } from "@chakra-ui/react";
 import CLINICAL_DATA from "./data/DATA.js";
 import Skills from "./components/Skills.js";
 import Header from "./components/Header.js";
+import Display from "./components/Display.js";
 import "./App.css";
-import { Flex } from "@chakra-ui/react";
+
 
 const App = () => {
   const [data, setData] = useState(CLINICAL_DATA);
+  const [displayData, setDisplayData] = useState()
 
   if (data) {
     return (
-      <div className="App">
+      <Flex className="App">
         <Header />
-        <Skills data={data} />
-      </div>
+        <Display displayData={displayData}/>
+        <Skills data={data} setDisplayData={setDisplayData}/>
+      </Flex>
     );
   }
 

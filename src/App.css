@@ -7,10 +7,10 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .card {
-    
     width: 100%;
     height: 100%;
     border: 1px solid black;
@@ -31,4 +31,38 @@ html, body {
     border-radius: 15px;
     cursor: pointer;
     border: 2px solid black;
+}
+
+.display-container {
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.info-container {
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.steps-container {
+    overflow-y: scroll;
+    max-width: 50%;
+    height: 100%;
+    padding: 15px;
+    background-color: lightblue;
+}
+
+.video-container {
+    max-width: 50%;
+    height: 100%;
+    padding: 15px;
+}
+
+.step {
+    
 }

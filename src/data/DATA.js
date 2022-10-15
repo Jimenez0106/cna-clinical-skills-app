@@ -203,7 +203,7 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st4.depositphotos.com/16122460/30279/i/450/depositphotos_302794382-stock-photo-nurse-feeding-elderly-man-with.jpg)",
+    picture: "URL(https://st4.depositphotos.com/16122460/30279/i/450/depositphotos_302794382-stock-photo-nurse-feeding-elderly-man-with.jpg r r)",
   },
   {
     title: "Measure and record a resident's radial pulse",
