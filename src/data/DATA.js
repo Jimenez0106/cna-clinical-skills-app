@@ -78,7 +78,7 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://static9.depositphotos.com/1037987/1188/i/450/depositphotos_11888124-stock-photo-nurse-and-male-patient-in.jpg)",
+    picture: "URL(https://st2.depositphotos.com/7658950/11965/v/450/depositphotos_119654478-stock-illustration-vector-set-of-bedpan.jpg)",
   },
   {
     title: "Change bed linin while the resident remains in bed",
@@ -203,7 +203,7 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st4.depositphotos.com/16122460/30279/i/450/depositphotos_302794382-stock-photo-nurse-feeding-elderly-man-with.jpg r r)",
+    picture: "URL(https://static7.depositphotos.com/1194063/686/i/450/depositphotos_6868471-stock-photo-nursing-home.jpg)",
   },
   {
     title: "Measure and record a resident's radial pulse",
