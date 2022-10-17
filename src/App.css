@@ -19,6 +19,7 @@ html, body {
 }
 
 .card-container {
+    position: relative;
     width: 250px;
     height: 200px;
     text-align: center;   
@@ -31,6 +32,12 @@ html, body {
     border-radius: 15px;
     cursor: pointer;
     border: 2px solid black;
+}
+
+.checkbox {
+    position: absolute;
+    top: 4%;
+    right: 5%;
 }
 
 .display-container {
@@ -49,20 +56,40 @@ html, body {
     height: 100%;
 }
 
+.step {
+    width: 100%;
+    padding: 5px;
+}
+.step:nth-child(odd) {
+    background-color: white;
+}
+.step:nth-child(even) {
+    background-color: aquamarine;
+}
+
+.step>h1 {
+    font-weight: bold;
+    width: 12%;
+    min-width: 65px;
+}
+.step>p {
+    width: 100%
+}
+
 .steps-container {
-    overflow-y: scroll;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 470px;
     max-width: 50%;
-    height: 100%;
     padding: 15px;
     background-color: lightblue;
 }
 
 .video-container {
+    justify-content: center;
+    align-items: center;
     max-width: 50%;
-    height: 100%;
+    width: 600px;
+    height: 338px;
     padding: 15px;
-}
-
-.step {
-    
 }

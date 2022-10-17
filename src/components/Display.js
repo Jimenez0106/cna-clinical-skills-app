@@ -4,26 +4,37 @@ import React from "react";
 const Display = ({ displayData }) => {
   if (displayData) {
     const { title, prompt, steps } = displayData;
-    console.log(displayData);
+
     return (
       <Flex className="display-container">
-        <h1>{title}</h1>
-        <p>{prompt}</p>
+        <Box>
+          <h1>{title}</h1>
+          <p>{prompt}</p>
+        </Box>
+
         <Flex className="info-container">
           {/* Steps */}
-          <Box className="steps-container">
+          <Flex className="steps-container">
             {steps.map((step, id) => {
               return (
-                <p className="step">
-                  Step {id + 1}: {step}
-                </p>
+                <Flex className="step" key={id}>
+                  <h1>{`Step ${id + 1}:`}&nbsp; </h1>
+                  <p>{step}</p>
+                </Flex>
               );
             })}
-          </Box>
+          </Flex>
           {/* Video */}
-          <Box className="video-container">
-            <h1>video imbed here</h1>
-          </Box>
+          <Flex className="video-container">
+            <iframe
+              title={`${title} Video Demonstration`}
+              width="100%"
+              height="100%"
+              frameBorder="0"
+              allowFullScreen
+              src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            />
+          </Flex>
         </Flex>
       </Flex>
     );

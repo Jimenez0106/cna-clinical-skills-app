@@ -11,6 +11,7 @@ const Card = ({ skill, setDisplayData }) => {
       </Heading>
       {/* Image */}
       <Flex className="card" bgImage={picture} bgSize="cover" bgPos="center" />
+      <input className="checkbox" type="checkbox" />
     </Flex>
   );
 };
