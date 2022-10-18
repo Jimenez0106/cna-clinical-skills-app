@@ -1,7 +1,8 @@
 const CLINICAL_DATA = [
   {
     title: "Handwashing",
-    prompt: "When taking the test, candidates are not given instructions about when to wash their hands. This is because nurse aides are expected to know that their hands should be washed before any physical contact with a resident. Candidates are evaluated on how well they wash their hands (technique) during the first skill. In Florida, where two nurses will be observing your performance throughout the test, one nurse will observe your handwashing at the beginning of the first skill, and the other nurse will observe your handwashing at the end of the first skill. After the first skill is completed, for the remainder of the test, handwashing is evaluated as a part of Indirect Care with the checkpoint, 'Use Standard precautions and Infection Control Measures when providing care.' Handwashing is one of the five skills scored in every Clinical Skills Test.",
+    prompt:
+      "When taking the test, candidates are not given instructions about when to wash their hands. This is because nurse aides are expected to know that their hands should be washed before any physical contact with a resident. Candidates are evaluated on how well they wash their hands (technique) during the first skill. In Florida, where two nurses will be observing your performance throughout the test, one nurse will observe your handwashing at the beginning of the first skill, and the other nurse will observe your handwashing at the end of the first skill. After the first skill is completed, for the remainder of the test, handwashing is evaluated as a part of Indirect Care with the checkpoint, 'Use Standard precautions and Infection Control Measures when providing care.' Handwashing is one of the five skills scored in every Clinical Skills Test.",
     steps: [
       "Begin handwashing by wetting hands and applying soap to hands.",
       "Use friction to distribute soap and create lather cleansing front and back of hands, between fingers around cuticles, under nails, and wrists.",
@@ -12,10 +13,12 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st2.depositphotos.com/1037987/10620/i/450/depositphotos_106205482-stock-photo-medical-staff-washing-hands.jpg)",
+    video: "",
   },
   {
     title: "Indirect Care",
-    prompt: "Indirect Care is a skill that is evaluated while you perform each skill. This skill evaluates behaviors that are common to any resident care such as: infection control, safety, communication, and resident preferences, needs, comfort and rights. You are not given instructions to perform the Indirect Care skill. The evaluator watches for these behaviors while you perform each skill. In the checkpoints provided for each skill below, Indirect Care checkpoints are identified with an '(IC)' at the end. Indirect Care is one of the five skills scored in every Clinical Skills Test. The Indirect Care checkpoints are:",
+    prompt:
+      "Indirect Care is a skill that is evaluated while you perform each skill. This skill evaluates behaviors that are common to any resident care such as: infection control, safety, communication, and resident preferences, needs, comfort and rights. You are not given instructions to perform the Indirect Care skill. The evaluator watches for these behaviors while you perform each skill. In the checkpoints provided for each skill below, Indirect Care checkpoints are identified with an '(IC)' at the end. Indirect Care is one of the five skills scored in every Clinical Skills Test. The Indirect Care checkpoints are:",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -25,11 +28,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://static9.depositphotos.com/1037987/1188/i/450/depositphotos_11888124-stock-photo-nurse-and-male-patient-in.jpg)",
+    picture:
+      "URL(https://static9.depositphotos.com/1037987/1188/i/450/depositphotos_11888124-stock-photo-nurse-and-male-patient-in.jpg)",
+    video: "",
   },
   {
     title: "Ambulate the resident using a transfer/gait belt",
-    prompt: "The candidate is asked to walk a resident who needs some assisttance to stand. A transfer/gait belt is used while walking the resident. The role of the resident is played by a person.",
+    prompt:
+      "The candidate is asked to walk a resident who needs some assisttance to stand. A transfer/gait belt is used while walking the resident. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -52,11 +58,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st.depositphotos.com/1011643/1956/i/450/depositphotos_19561961-stock-photo-young-female-caregiver-helping-senior.jpg)",
+    picture:
+      "URL(https://st.depositphotos.com/1011643/1956/i/450/depositphotos_19561961-stock-photo-young-female-caregiver-helping-senior.jpg)",
+    video: "",
   },
   {
     title: "Assist resident needing to use a bedpan",
-    prompt: "The candidate is asked to help a resident who has asked for a bedpan. The role of the resident is played by a person who will be wearing a hospital-style gown over clothing. For the purposes of testing, the candidate will pretend that the resident (actor) is not wearing underpants.",
+    prompt:
+      "The candidate is asked to help a resident who has asked for a bedpan. The role of the resident is played by a person who will be wearing a hospital-style gown over clothing. For the purposes of testing, the candidate will pretend that the resident (actor) is not wearing underpants.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -78,11 +87,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st2.depositphotos.com/7658950/11965/v/450/depositphotos_119654478-stock-illustration-vector-set-of-bedpan.jpg)",
+    picture:
+      "URL(https://st2.depositphotos.com/7658950/11965/v/450/depositphotos_119654478-stock-illustration-vector-set-of-bedpan.jpg)",
+    video: "",
   },
   {
     title: "Change bed linin while the resident remains in bed",
-    prompt: "The candidate is asked to change the top and bottom sheets and pillowcase on the bed while the resident stays in the bed. The role of the resident is played by a person. *(Not tested in Wyoming)",
+    prompt:
+      "The candidate is asked to change the top and bottom sheets and pillowcase on the bed while the resident stays in the bed. The role of the resident is played by a person. *(Not tested in Wyoming)",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -104,11 +116,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st4.depositphotos.com/3001967/27143/i/450/depositphotos_271438858-stock-photo-nurse-preparing-clean-bed-linen.jpg)",
+    picture:
+      "URL(https://st4.depositphotos.com/3001967/27143/i/450/depositphotos_271438858-stock-photo-nurse-preparing-clean-bed-linen.jpg)",
+    video: "",
   },
   {
     title: "Change resident's position to a supported side-lying position",
-    prompt: "The Candidate is asked to change the position of a resident who is lying on his/her back, to a side-lying position. The resident requires support to remain positioned on the side. The role of the resident is played by a person.",
+    prompt:
+      "The Candidate is asked to change the position of a resident who is lying on his/her back, to a side-lying position. The resident requires support to remain positioned on the side. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -127,11 +142,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st3.depositphotos.com/1192060/17783/i/450/depositphotos_177838698-stock-photo-nurse-rolling-patient-over-in.jpg)",
+    picture:
+      "URL(https://st3.depositphotos.com/1192060/17783/i/450/depositphotos_177838698-stock-photo-nurse-rolling-patient-over-in.jpg)",
+    video: "",
   },
   {
     title: "Dress a resident who has a weak arm",
-    prompt: "The candidate is asked to put a long-sleeved button-front shirt, pants, and socks on a resident who is lying in bed. The resident is not able to help with the dressing and has a weak arm. A mannequin is used for the role of the resident.",
+    prompt:
+      "The candidate is asked to put a long-sleeved button-front shirt, pants, and socks on a resident who is lying in bed. The resident is not able to help with the dressing and has a weak arm. A mannequin is used for the role of the resident.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -152,11 +170,15 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st2.depositphotos.com/1394326/8629/i/450/depositphotos_86297078-stock-photo-nurse-helping-elderly-man-getting.jpg)",
+    picture:
+      "URL(https://st2.depositphotos.com/1394326/8629/i/450/depositphotos_86297078-stock-photo-nurse-helping-elderly-man-getting.jpg)",
+    video: "",
   },
   {
-    title: "Empty contents of resident's urinary drainage bag, and measure and record urine output on an Intake and Output (I&O) form",
-    prompt: "The candidate is asked to empty the resident's urinary drainage bag into a graduate container and to measure the amount of urine. An Intake and Output (I&O) Form (see sample on website) is provided to record the measurement. The output should be recorded as urine and the correct time recorded for the measurement. The role of the resident is played by either a person or mannequin. *(Not tested in Wyoming)",
+    title:
+      "Empty contents of resident's urinary drainage bag, and measure and record urine output on an Intake and Output (I&O) form",
+    prompt:
+      "The candidate is asked to empty the resident's urinary drainage bag into a graduate container and to measure the amount of urine. An Intake and Output (I&O) Form (see sample on website) is provided to record the measurement. The output should be recorded as urine and the correct time recorded for the measurement. The role of the resident is played by either a person or mannequin. *(Not tested in Wyoming)",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -177,11 +199,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st2.depositphotos.com/2071935/5409/i/450/depositphotos_54095061-stock-photo-plastic-urine-bag-hanging-under.jpg)",
+    picture:
+      "URL(https://st2.depositphotos.com/2071935/5409/i/450/depositphotos_54095061-stock-photo-plastic-urine-bag-hanging-under.jpg)",
+    video: "",
   },
   {
     title: "Feed a resident who is sitting in a chair",
-    prompt: "The candidate is asked to feed a snack to a resident who is not able to feed him/herself. The resident is sitting in a chair in an inappropriate position for feeding. A Food and Fluid Intake Form (sample provided on the website) is provided to record the resident's estimated food and fluid intake. The role of the resident is played by a person.",
+    prompt:
+      "The candidate is asked to feed a snack to a resident who is not able to feed him/herself. The resident is sitting in a chair in an inappropriate position for feeding. A Food and Fluid Intake Form (sample provided on the website) is provided to record the resident's estimated food and fluid intake. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -203,11 +228,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://static7.depositphotos.com/1194063/686/i/450/depositphotos_6868471-stock-photo-nursing-home.jpg)",
+    picture:
+      "URL(https://static7.depositphotos.com/1194063/686/i/450/depositphotos_6868471-stock-photo-nursing-home.jpg)",
+    video: "",
   },
   {
     title: "Measure and record a resident's radial pulse",
-    prompt: "The candidate is asked to take the resident's radial pulse, measured at the wrist. The pulse should be counted for one full minute. A Measurement Form (sample provided on the website) is provided to record the resident's pulse rate. The role of the resident is played by a person.",
+    prompt:
+      "The candidate is asked to take the resident's radial pulse, measured at the wrist. The pulse should be counted for one full minute. A Measurement Form (sample provided on the website) is provided to record the resident's pulse rate. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -222,11 +250,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st.depositphotos.com/2654993/3391/i/450/depositphotos_33919089-stock-photo-checking-the-pulse.jpg)",
+    picture:
+      "URL(https://st.depositphotos.com/2654993/3391/i/450/depositphotos_33919089-stock-photo-checking-the-pulse.jpg)",
+    video: "",
   },
   {
     title: "Measure and record a resident's respirations",
-    prompt: "The candidate is asked to count the resident's respirations. The respirations should be counted for one full minute. During the test, since this skill is tested separately from the measure and record pulse skill, candidates are allowed to tell the resident that his/her pulse is being counted or vital signs taken, instead of stating that respirations are being counted. A Measurement Form (sample provided on the website) is provided to record the resident's respiration rate. The role of the resident is played by a person.",
+    prompt:
+      "The candidate is asked to count the resident's respirations. The respirations should be counted for one full minute. During the test, since this skill is tested separately from the measure and record pulse skill, candidates are allowed to tell the resident that his/her pulse is being counted or vital signs taken, instead of stating that respirations are being counted. A Measurement Form (sample provided on the website) is provided to record the resident's respiration rate. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -239,11 +270,15 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st3.depositphotos.com/3261171/14925/i/450/depositphotos_149258890-stock-photo-handsome-nice-distinguished-specialist-consulting.jpg)",
+    picture:
+      "URL(https://st3.depositphotos.com/3261171/14925/i/450/depositphotos_149258890-stock-photo-handsome-nice-distinguished-specialist-consulting.jpg)",
+    video: "",
   },
   {
-    title: "Provide catheter care to a female resident who has an indwelling urinary catheter",
-    prompt: "The candidate is asked to provide catheter care to a female resident who has an indwelling urinary catheter. Soap and water should be used for the catheter care. For testing purposes, only the cleansing of the front perineal area and catheter are evaluated; cleansing of the rectal area and buttocks is not tested in this skill. A mannequin is used for the role of the resident.",
+    title:
+      "Provide catheter care to a female resident who has an indwelling urinary catheter",
+    prompt:
+      "The candidate is asked to provide catheter care to a female resident who has an indwelling urinary catheter. Soap and water should be used for the catheter care. For testing purposes, only the cleansing of the front perineal area and catheter are evaluated; cleansing of the rectal area and buttocks is not tested in this skill. A mannequin is used for the role of the resident.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -266,11 +301,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st.depositphotos.com/5775856/57524/v/450/depositphotos_575247516-stock-illustration-urinary-catheter-male-body-empty.jpg)",
+    picture:
+      "URL(https://st.depositphotos.com/5775856/57524/v/450/depositphotos_575247516-stock-illustration-urinary-catheter-male-body-empty.jpg)",
+    video: "",
   },
   {
     title: "Provide foot care to a resident who is sitting in a chair",
-    prompt: "The candidate is asked to provide foot care to a resident. Soap and water is used and foot care is provided to only one foot. The resident is sitting in a chair. The resident's sock and shoe are replaced at the end of the skill. The resident role is played by a person.",
+    prompt:
+      "The candidate is asked to provide foot care to a resident. Soap and water is used and foot care is provided to only one foot. The resident is sitting in a chair. The resident's sock and shoe are replaced at the end of the skill. The resident role is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -294,11 +332,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st2.depositphotos.com/2111141/9767/i/450/depositphotos_97675836-stock-photo-elderly-foot-hygiene.jpg)",
+    picture:
+      "URL(https://st2.depositphotos.com/2111141/9767/i/450/depositphotos_97675836-stock-photo-elderly-foot-hygiene.jpg)",
+    video: "",
   },
   {
     title: "Provide mouth care to a resident who has a denture",
-    prompt: "A resident is sitting at an overbed table and the resident's denture is in a denture cup. The resident is not able to provide own mouth or denture care. The resident's denture needs to be cleaned and the resident needs mouth care. The denture is stored in a denture cup after cleaning. The role of the resident is played by a person.",
+    prompt:
+      "A resident is sitting at an overbed table and the resident's denture is in a denture cup. The resident is not able to provide own mouth or denture care. The resident's denture needs to be cleaned and the resident needs mouth care. The denture is stored in a denture cup after cleaning. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -322,11 +363,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st3.depositphotos.com/1177973/13134/i/450/depositphotos_131343224-stock-photo-dentist-cleaning-dental-jaw-model.jpg)",
+    picture:
+      "URL(https://st3.depositphotos.com/1177973/13134/i/450/depositphotos_131343224-stock-photo-dentist-cleaning-dental-jaw-model.jpg)",
+    video: "",
   },
   {
     title: "Provide mouth care to a resident who has teeth",
-    prompt: "A resident who has his/her natural teeth is lying in bed and needs mouth care. The resident is not able to provide own mouth care. The role of the resident is played by a person.",
+    prompt:
+      "A resident who has his/her natural teeth is lying in bed and needs mouth care. The resident is not able to provide own mouth care. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -345,11 +389,15 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://live.staticflickr.com/3517/3928874950_e3d05a3777_b.jpg)",
+    picture:
+      "URL(https://live.staticflickr.com/3517/3928874950_e3d05a3777_b.jpg)",
+    video: "",
   },
   {
-    title: "Provide perineal care to a female resident who is incontinent of urine",
-    prompt: "The candidate is asked to provide perineal care to a resident who is incontinent of urine. The resident is lying in bed on an underpad and is wearing a hospital-style gown that is dry. A mannequin is used for the role of the resident.",
+    title:
+      "Provide perineal care to a female resident who is incontinent of urine",
+    prompt:
+      "The candidate is asked to provide perineal care to a resident who is incontinent of urine. The resident is lying in bed on an underpad and is wearing a hospital-style gown that is dry. A mannequin is used for the role of the resident.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -375,10 +423,12 @@ const CLINICAL_DATA = [
       "Promote resident's safety during care. (IC)",
     ],
     picture: "URL(https://i.ytimg.com/vi/8OTKidNwLlo/maxresdefault.jpg)",
+    video: "",
   },
   {
     title: "Provide resident hand and nail care",
-    prompt: "The candidate is asked to provide hand and nail care to one hand. The role of the resident is played by a person. *(Not tested in Wyoming)",
+    prompt:
+      "The candidate is asked to provide hand and nail care to one hand. The role of the resident is played by a person. *(Not tested in Wyoming)",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -399,11 +449,14 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st4.depositphotos.com/1743476/30968/i/450/depositphotos_309681858-stock-photo-woman-getting-manicure-in-spa.jpg)",
+    picture:
+      "URL(https://st4.depositphotos.com/1743476/30968/i/450/depositphotos_309681858-stock-photo-woman-getting-manicure-in-spa.jpg)",
+    video: "",
   },
   {
     title: "Provide resident a partial bed bath and back rub",
-    prompt: "The candidate is asked to bathe a resident who is in bed and who is not able to help with his/her bathing. For testing purposes only, the candidate is asked to wash just a part of the body so that technique can be evaluated. Instructions ask the candidate to wash the resident's face, neck, back, one hand and arm, and the chest and abdomen. Soap and water should be used for the bathing. The resident also needs a back rub. When completing the skill, the mannequin is dressed in a clean hospital-style gown. A mannequin is used for the role of the resident.",
+    prompt:
+      "The candidate is asked to bathe a resident who is in bed and who is not able to help with his/her bathing. For testing purposes only, the candidate is asked to wash just a part of the body so that technique can be evaluated. Instructions ask the candidate to wash the resident's face, neck, back, one hand and arm, and the chest and abdomen. Soap and water should be used for the bathing. The resident also needs a back rub. When completing the skill, the mannequin is dressed in a clean hospital-style gown. A mannequin is used for the role of the resident.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -432,11 +485,15 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st.depositphotos.com/3216063/59875/i/450/depositphotos_598750764-stock-photo-nurse-helping-senior-woman-wash.jpg)",
+    picture:
+      "URL(https://st.depositphotos.com/3216063/59875/i/450/depositphotos_598750764-stock-photo-nurse-helping-senior-woman-wash.jpg)",
+    video: "",
   },
   {
-    title: "Provide resident with passive range of motion (ROM) exercises to one elbow and wrist",
-    prompt: "The candidate is asked to provide range of motion exercise to a resident who is not able to help with the exercises. The resident needs his/her elbow flexed and extended, and the wrist flexed and hyperextended. For testing purposes, the resident needs three repetitions of both exercises. The instructions provided at the test site will indicate whether the exercise is to the left or right side. The role of the resident is played by a person.",
+    title:
+      "Provide resident with passive range of motion (ROM) exercises to one elbow and wrist",
+    prompt:
+      "The candidate is asked to provide range of motion exercise to a resident who is not able to help with the exercises. The resident needs his/her elbow flexed and extended, and the wrist flexed and hyperextended. For testing purposes, the resident needs three repetitions of both exercises. The instructions provided at the test site will indicate whether the exercise is to the left or right side. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -452,11 +509,15 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st2.depositphotos.com/1922799/7491/i/450/depositphotos_74911681-stock-photo-traumatologist-orthopedic-surgeon-doctor-examining.jpg)",
+    picture:
+      "URL(https://st2.depositphotos.com/1922799/7491/i/450/depositphotos_74911681-stock-photo-traumatologist-orthopedic-surgeon-doctor-examining.jpg)",
+    video: "",
   },
   {
-    title: "Provide resident with passive range of motion (ROM) exercises to one shoulder",
-    prompt: "The candidate is asked to provide range of motion exercise to a resident who is not able to help with the exercises. The resident needs his/her shoulder flexed and extended, and abducted and adducted. For testing purposes, the resident needs three repetitions of both exercises. The instructions provided at the test site will indicate whether the exercise is to the left or right side. The role of the resident is played by a person.",
+    title:
+      "Provide resident with passive range of motion (ROM) exercises to one shoulder",
+    prompt:
+      "The candidate is asked to provide range of motion exercise to a resident who is not able to help with the exercises. The resident needs his/her shoulder flexed and extended, and abducted and adducted. For testing purposes, the resident needs three repetitions of both exercises. The instructions provided at the test site will indicate whether the exercise is to the left or right side. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -472,11 +533,15 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st2.depositphotos.com/2249091/8043/i/450/depositphotos_80439058-stock-photo-problem-with-arm.jpg)",
+    picture:
+      "URL(https://st2.depositphotos.com/2249091/8043/i/450/depositphotos_80439058-stock-photo-problem-with-arm.jpg)",
+    video: "",
   },
   {
-    title: "Provide resident with passive range of motion (ROM) exercises to one hip, knee and ankle.",
-    prompt: "The candidate is asked to provide range of motion exercises to a resident who is not able to help with the exercises. The resident needs his/her hip and knee flexed and extended, and dorsiflexion and plantar flexion to the ankle. For testing purposes, the resident needs three repetitions of both exercises. The instructions provided at the test site will indicate whether the exercise is to the left or right side. The role of the resident is played by a person.",
+    title:
+      "Provide resident with passive range of motion (ROM) exercises to one hip, knee and ankle.",
+    prompt:
+      "The candidate is asked to provide range of motion exercises to a resident who is not able to help with the exercises. The resident needs his/her hip and knee flexed and extended, and dorsiflexion and plantar flexion to the ankle. For testing purposes, the resident needs three repetitions of both exercises. The instructions provided at the test site will indicate whether the exercise is to the left or right side. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -493,11 +558,15 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st3.depositphotos.com/1008239/17264/i/450/depositphotos_172642048-stock-photo-patient-with-orthopedist-doctor-in.jpg)",
+    picture:
+      "URL(https://st3.depositphotos.com/1008239/17264/i/450/depositphotos_172642048-stock-photo-patient-with-orthopedist-doctor-in.jpg)",
+    video: "",
   },
   {
-    title: "Transfer the resident from the bed into a wheelchair using a pivot technique and a transfer/gait belt",
-    prompt: "The candidate is asked to transfer a resident who is lying in bed, into a wheelchair. A pivot transfer technique is required and a transfer/gait belt is required. The resident is able to stand but cannot take steps. The role of the resident is played by a person.",
+    title:
+      "Transfer the resident from the bed into a wheelchair using a pivot technique and a transfer/gait belt",
+    prompt:
+      "The candidate is asked to transfer a resident who is lying in bed, into a wheelchair. A pivot transfer technique is required and a transfer/gait belt is required. The resident is able to stand but cannot take steps. The role of the resident is played by a person.",
     steps: [
       "Greet resident, address by name, and introduce self. (IC)",
       "Provide explanations to resident about care before beginning and during care. (IC)",
@@ -524,7 +593,9 @@ const CLINICAL_DATA = [
       "Promote resident's rights during care. (IC)",
       "Promote resident's safety during care. (IC)",
     ],
-    picture: "URL(https://st.depositphotos.com/2249091/5130/i/450/depositphotos_51307967-stock-photo-geriatric-patient-sitting-on-wheelchair.jpg)",
+    picture:
+      "URL(https://st.depositphotos.com/2249091/5130/i/450/depositphotos_51307967-stock-photo-geriatric-patient-sitting-on-wheelchair.jpg)",
+    video: "",
   },
 ];
 
