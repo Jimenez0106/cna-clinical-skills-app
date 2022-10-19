@@ -4,7 +4,8 @@ import CLINICAL_DATA from "./data/DATA.js";
 import Skills from "./components/Skills.js";
 import Header from "./components/Header.js";
 import Display from "./components/Display.js";
-import "./App.css";
+import SideNav from "./components/SideNav.js";
+import "./styles/style.scss";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     return (
       <Flex className="App">
         <Header />
+        {/* <SideNav /> */}
         <Display displayData={displayData}/>
         <Skills data={data} setDisplayData={setDisplayData}/>
       </Flex>

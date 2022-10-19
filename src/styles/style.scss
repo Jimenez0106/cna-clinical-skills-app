@@ -1,0 +1,100 @@
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+.App {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+     
+}
+
+.card-container {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    text-align: center;   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: teal;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.checkbox {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+}
+
+.display-container {
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.info-container {
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.step {
+    width: 100%;
+    padding: 5px;
+}
+.step:nth-child(odd) {
+    background-color: white;
+}
+.step:nth-child(even) {
+    background-color: aquamarine;
+}
+
+.step>h1 {
+    font-weight: bold;
+    width: 12%;
+    min-width: 65px;
+}
+.step>p {
+    width: 100%
+}
+
+.title {
+    font-weight: bold;
+}
+
+.steps-container {
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 470px;
+    max-width: 50%;
+    padding: 15px;
+    background-color: lightblue;
+}
+
+.video-container {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 854px;
+    height: 480px;
+    max-height: 480px;
+    padding: 15px;
+}

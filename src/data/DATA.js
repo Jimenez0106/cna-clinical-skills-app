@@ -13,7 +13,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st2.depositphotos.com/1037987/10620/i/450/depositphotos_106205482-stock-photo-medical-staff-washing-hands.jpg)",
-    video: "",
+    video: "XR_JvNcRZYs",
   },
   {
     title: "Indirect Care",
@@ -30,7 +30,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://static9.depositphotos.com/1037987/1188/i/450/depositphotos_11888124-stock-photo-nurse-and-male-patient-in.jpg)",
-    video: "",
+    video: "2ngJmmizyvM",
   },
   {
     title: "Ambulate the resident using a transfer/gait belt",
@@ -60,7 +60,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st.depositphotos.com/1011643/1956/i/450/depositphotos_19561961-stock-photo-young-female-caregiver-helping-senior.jpg)",
-    video: "",
+    video: "q06JnuYhB2Y",
   },
   {
     title: "Assist resident needing to use a bedpan",
@@ -89,7 +89,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st2.depositphotos.com/7658950/11965/v/450/depositphotos_119654478-stock-illustration-vector-set-of-bedpan.jpg)",
-    video: "",
+    video: "pV6gDqO1RTc",
   },
   {
     title: "Change bed linin while the resident remains in bed",
@@ -118,7 +118,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st4.depositphotos.com/3001967/27143/i/450/depositphotos_271438858-stock-photo-nurse-preparing-clean-bed-linen.jpg)",
-    video: "",
+    video: "KBDLtoPR140",
   },
   {
     title: "Change resident's position to a supported side-lying position",
@@ -144,7 +144,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st3.depositphotos.com/1192060/17783/i/450/depositphotos_177838698-stock-photo-nurse-rolling-patient-over-in.jpg)",
-    video: "",
+    video: "QlUpI-bznWA",
   },
   {
     title: "Dress a resident who has a weak arm",
@@ -172,7 +172,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st2.depositphotos.com/1394326/8629/i/450/depositphotos_86297078-stock-photo-nurse-helping-elderly-man-getting.jpg)",
-    video: "",
+    video: "PiHCvPHBoZs",
   },
   {
     title:
@@ -201,7 +201,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st2.depositphotos.com/2071935/5409/i/450/depositphotos_54095061-stock-photo-plastic-urine-bag-hanging-under.jpg)",
-    video: "",
+    video: "WbVW_R7XIBY",
   },
   {
     title: "Feed a resident who is sitting in a chair",
@@ -230,7 +230,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://static7.depositphotos.com/1194063/686/i/450/depositphotos_6868471-stock-photo-nursing-home.jpg)",
-    video: "",
+    video: "uA5V-ivcEes",
   },
   {
     title: "Measure and record a resident's radial pulse",
@@ -252,7 +252,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st.depositphotos.com/2654993/3391/i/450/depositphotos_33919089-stock-photo-checking-the-pulse.jpg)",
-    video: "",
+    video: "31qBW0Imj_0",
   },
   {
     title: "Measure and record a resident's respirations",
@@ -272,7 +272,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st3.depositphotos.com/3261171/14925/i/450/depositphotos_149258890-stock-photo-handsome-nice-distinguished-specialist-consulting.jpg)",
-    video: "",
+    video: "n4xISnZRmkY",
   },
   {
     title:
@@ -303,7 +303,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st.depositphotos.com/5775856/57524/v/450/depositphotos_575247516-stock-illustration-urinary-catheter-male-body-empty.jpg)",
-    video: "",
+    video: "XzQTDUEpx0w",
   },
   {
     title: "Provide foot care to a resident who is sitting in a chair",
@@ -334,7 +334,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st2.depositphotos.com/2111141/9767/i/450/depositphotos_97675836-stock-photo-elderly-foot-hygiene.jpg)",
-    video: "",
+    video: "2v_PMdYPGIs",
   },
   {
     title: "Provide mouth care to a resident who has a denture",
@@ -365,7 +365,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st3.depositphotos.com/1177973/13134/i/450/depositphotos_131343224-stock-photo-dentist-cleaning-dental-jaw-model.jpg)",
-    video: "",
+    video: "l0G0ZO627jo",
   },
   {
     title: "Provide mouth care to a resident who has teeth",
@@ -391,7 +391,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://live.staticflickr.com/3517/3928874950_e3d05a3777_b.jpg)",
-    video: "",
+    video: "5c4UIDf7pzc",
   },
   {
     title:
@@ -423,7 +423,7 @@ const CLINICAL_DATA = [
       "Promote resident's safety during care. (IC)",
     ],
     picture: "URL(https://i.ytimg.com/vi/8OTKidNwLlo/maxresdefault.jpg)",
-    video: "",
+    video: "6Ny4wSUdYNo",
   },
   {
     title: "Provide resident hand and nail care",
@@ -451,7 +451,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st4.depositphotos.com/1743476/30968/i/450/depositphotos_309681858-stock-photo-woman-getting-manicure-in-spa.jpg)",
-    video: "",
+    video: "i_P-V3tQ01c",
   },
   {
     title: "Provide resident a partial bed bath and back rub",
@@ -487,7 +487,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st.depositphotos.com/3216063/59875/i/450/depositphotos_598750764-stock-photo-nurse-helping-senior-woman-wash.jpg)",
-    video: "",
+    video: "TH1IVwZmAEE",
   },
   {
     title:
@@ -511,7 +511,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st2.depositphotos.com/1922799/7491/i/450/depositphotos_74911681-stock-photo-traumatologist-orthopedic-surgeon-doctor-examining.jpg)",
-    video: "",
+    video: "PAPiZVfyHqs",
   },
   {
     title:
@@ -535,7 +535,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st2.depositphotos.com/2249091/8043/i/450/depositphotos_80439058-stock-photo-problem-with-arm.jpg)",
-    video: "",
+    video: "3KSXBIbatRk",
   },
   {
     title:
@@ -560,7 +560,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st3.depositphotos.com/1008239/17264/i/450/depositphotos_172642048-stock-photo-patient-with-orthopedist-doctor-in.jpg)",
-    video: "",
+    video: "DEtvqskP5zI",
   },
   {
     title:
@@ -595,7 +595,7 @@ const CLINICAL_DATA = [
     ],
     picture:
       "URL(https://st.depositphotos.com/2249091/5130/i/450/depositphotos_51307967-stock-photo-geriatric-patient-sitting-on-wheelchair.jpg)",
-    video: "",
+    video: "_irfJdCL2Dw",
   },
 ];
 

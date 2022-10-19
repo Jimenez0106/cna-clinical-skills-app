@@ -3,12 +3,12 @@ import React from "react";
 
 const Display = ({ displayData }) => {
   if (displayData) {
-    const { title, prompt, steps } = displayData;
+    const { title, prompt, steps, video } = displayData;
 
     return (
       <Flex className="display-container">
-        <Box>
-          <h1>{title}</h1>
+        <Box >
+          <h1 className="title">{title}</h1>
           <p>{prompt}</p>
         </Box>
 
@@ -25,15 +25,17 @@ const Display = ({ displayData }) => {
             })}
           </Flex>
           {/* Video */}
-          <Flex className="video-container">
-            <iframe
-              title={`${title} Video Demonstration`}
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              allowFullScreen
-              src="https://www.youtube.com/embed/tgbNymZ7vqY"
-            />
+          <Flex justifyContent="center" alignItems="center" w="50%">
+            <Flex className="video-container">
+              <iframe
+                title={`${title} Video Demonstration`}
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allowFullScreen
+                src={`https://www.youtube.com/embed/${video}`}
+              />
+            </Flex>
           </Flex>
         </Flex>
       </Flex>
