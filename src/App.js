@@ -16,7 +16,7 @@ const App = () => {
     return (
       <Flex className="App">
         <Header />
-        {/* <SideNav /> */}
+        <SideNav /> 
         <Display displayData={displayData}/>
         <Skills data={data} setDisplayData={setDisplayData}/>
       </Flex>
